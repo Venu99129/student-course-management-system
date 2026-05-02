@@ -27,7 +27,7 @@ Five key points
 - IDs are assigned by `src/main/java/org/example/utility/IdGenerator.java` (simple incremental counters). Services validate operations and throw domain exceptions from `src/main/java/org/example/exceptions` (e.g., `EmptyContentException`, `EntityNotFoundException`, `UnActiveEntityException`). All data is in-memory for the app lifecycle (no persistence), so state resets each run.
 
 Next steps
-- Run the app with `mvn -q exec:java -Dexec.mainClass="org.example.consoleUI.Main"` (if configured) or build the jar with `mvn package` and run the produced jar. Adjust commands to your environment as needed.
+- Run the app with `mvn -q exec:java -Dexec.mainClass="org.example.consoleUI.Main"` or build the jar with `mvn package` and run the produced jar. Adjust commands to your environment as needed.
 
 ---
 
